@@ -1,0 +1,124 @@
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  color: #79A1B0;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 10px;
+  color:rgb(0 0 0 / 80%)
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin: 17px 0px 40px;
+  line-height: 24px;
+  color:rgb(0 0 0 / 50%)
+}
+
+.card {
+  width: 400px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin: 40px auto;
+  background-color: white;
+  align-content: center;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img_round {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+body {
+  background-color: rgb(220,220,220);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #5B899A;
+}
+
+.btn-blue {
+  background-color: #79A1B0;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.list-inline a {
+  color: #BFD2D9;
+  font-size: 40px;
+}
+
+.list-inline a:hover {
+  color: #35505A;
+  background-color: transparent;
+}
+
+#follow-card {
+  padding: 10px 120px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 20px auto;
+  }
+
+  .card {
+    width: 300px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 20px auto;
+  }
+
+  .card {
+    width: 200px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 20px auto;
+  }
+
+  .card {
+    width: 100px;
+  }
+}
